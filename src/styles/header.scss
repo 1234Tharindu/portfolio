@@ -1,0 +1,105 @@
+.header-wrapper {
+  width: 95vw;
+  height: 40vw;
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  // align-items: center;
+  position: relative;
+  
+  margin-top:  2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+ 
+ 
+
+  h2 {
+    font-size: 3rem;
+    color: black;
+    text-align: left;
+    padding: 10px 10px;
+    padding-bottom: -10%;
+    margin-top: 2%;
+    @include media(">=phone", "<lgphone") {
+      font-size: 14px;
+    }
+    @include media(">=lgphone", "<tablet") {
+      font-size: 16px;
+    }
+    @include media(">=tablet", "<desktop") {
+      font-size: 16px;
+    }
+  }
+  .heading-wrapper {
+    h1 {
+      font-size: 3rem;
+      text-decoration: wavy;
+      color: black;
+      line-height: 10px;
+      text-align: left;
+      padding: 10px 10px;
+      @include media(">=phone", "<lgphone") {
+        font-size: 1.5rem;
+        line-height: 10px;
+      }
+      @include media(">=lgphone", "<tablet") {
+        font-size: 1.5rem;
+        line-height: 10px;
+      }
+      @include media(">=tablet", "<desktop") {
+        font-size: 2.5rem;
+      }
+    }
+  }
+  p {
+    width: 50%;
+    text-align: center;
+    overflow: hidden;
+    @include media(">=phone", "<lgphone") {
+      font-size: 12px;
+      width: 100%;
+    }
+    @include media(">=lgphone", "<tablet") {
+      font-size: 12px;
+      width: 100%;
+    }
+    @include media(">=tablet", "<desktop") {
+      font-size: 14px;
+      width: 100%;
+    }
+    
+  }
+  .image-wrapper1 {
+    // width: 50%;
+    // height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    overflow: hidden;
+    position: relative;
+    size: 4cm 4cm;
+    // box-shadow: 0 0 4px 0 rgba(218, 10, 10, 0.5);
+    // background: "#fff";
+    margin-top: -20%;
+    margin-left: 60%;
+    text-align: center;
+    color: red;
+    @include media(">=phone", "<lgphone") {
+      width: 100%;
+    }
+    @include media(">=lgphone", "<tablet") {
+      width: 100%;
+    }
+    @include media(">=tablet", "<desktop") {
+      width: 100%;
+    }
+
+  }
+  .headerParagraph{
+    font-size: 3rem;
+    
+  }
+  
+}
