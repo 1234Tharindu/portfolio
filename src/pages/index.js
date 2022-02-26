@@ -20,7 +20,7 @@ const IndexPage = () => (
     <About></About>
     <Work></Work>
     
-    
+    <Skills></Skills>
     <Footer></Footer>
   </Layout>
 )
